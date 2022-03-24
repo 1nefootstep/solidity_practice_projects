@@ -1,0 +1,11 @@
+Features:
+1. Multiple users can share this wallet.
+2. There is an owner that can set allowances
+to other users that share the wallet.
+3. Users only functionality is withdraw funds.
+4. Only owner can deposit funds.
+
+Considerations:
+1. Owner should be able to withdraw everything freely.
+2. However, if allowance is given to a user, that balance should be reserved
+ for that user. I.e., cannot set allowance as 51% for 2 different people.
